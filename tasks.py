@@ -18,7 +18,7 @@ def project_docs(ctx):
             '--link-stylesheet',
             'README.rst',
             'docs/index.html']
-    publish_cmdline(writer_name='html5', argv=args)
+    publish_cmdline(writer_name ='html5', argv=args)
     print(Path(args[-1]).absolute())
 
 @task
